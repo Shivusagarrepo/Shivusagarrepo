@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="sBrowser" value="firefox"/>
+  <test name="Test(failed)">
+    <parameter name="sBrowser" value="chrome"/>
+    <classes>
+      <class name="com.finovera.scripts.TestLoginPage">
+        <methods>
+          <include name="test_InvalidLoginPage"/>
+          <include name="test_ValidLoginPage"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.finovera.scripts.TestLoginPage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test name="Test1(failed)">
+    <parameter name="sBrowser" value="firefox"/>
+    <classes>
+      <class name="com.finovera.scripts.TestLoginPage">
+        <methods>
+          <include name="test_InvalidLoginPage"/>
+          <include name="test_ValidLoginPage"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.finovera.scripts.TestLoginPage -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="0" failed="0" skipped="8">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-30T18:34:00Z" name="Suite" finished-at="2021-09-30T18:34:01Z" duration-ms="829">
+    <groups>
+    </groups>
+    <test started-at="2021-09-30T18:34:00Z" name="Test" finished-at="2021-09-30T18:34:00Z" duration-ms="407">
+      <class name="com.finovera.scripts.TestLoginPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.finovera.scripts.TestLoginPage@2805c96b]" started-at="2021-10-01T00:04:00Z" name="openBrowser" finished-at="2021-10-01T00:04:00Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from https://chromedriver.storage.googleapis.com/index.html
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:39)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:233)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:129)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:41)
+	at com.finovera.generics.BaseTest.openBrowser(BaseTest.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.finovera.scripts.TestLoginPage@2805c96b]" started-at="2021-10-01T00:04:00Z" name="openApp" finished-at="2021-10-01T00:04:00Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test_InvalidLoginPage(java.lang.String, java.lang.String)[pri:0, instance:com.finovera.scripts.TestLoginPage@2805c96b]" started-at="2021-10-01T00:04:00Z" name="test_InvalidLoginPage" data-provider="testWithInvalidLoginPage" finished-at="2021-10-01T00:04:00Z" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_InvalidLoginPage -->
+        <test-method signature="test_InvalidLoginPage(java.lang.String, java.lang.String)[pri:0, instance:com.finovera.scripts.TestLoginPage@2805c96b]" started-at="2021-10-01T00:04:00Z" name="test_InvalidLoginPage" data-provider="testWithInvalidLoginPage" finished-at="2021-10-01T00:04:00Z" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ssjsjs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[132ed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_InvalidLoginPage -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.finovera.scripts.TestLoginPage@2805c96b]" started-at="2021-10-01T00:04:00Z" name="openApp" finished-at="2021-10-01T00:04:00Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.finovera.scripts.TestLoginPage@2805c96b]" started-at="2021-10-01T00:04:00Z" name="openApp" finished-at="2021-10-01T00:04:00Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test_InvalidLoginPage(java.lang.String, java.lang.String)[pri:0, instance:com.finovera.scripts.TestLoginPage@2805c96b]" started-at="2021-10-01T00:04:00Z" name="test_InvalidLoginPage" data-provider="testWithInvalidLoginPage" finished-at="2021-10-01T00:04:00Z" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#^%&U]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asddfvdfv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_InvalidLoginPage -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.finovera.scripts.TestLoginPage@2805c96b]" started-at="2021-10-01T00:04:00Z" name="openApp" finished-at="2021-10-01T00:04:00Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test_ValidLoginPage()[pri:0, instance:com.finovera.scripts.TestLoginPage@2805c96b]" started-at="2021-10-01T00:04:00Z" name="test_ValidLoginPage" finished-at="2021-10-01T00:04:00Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ValidLoginPage -->
+      </class> <!-- com.finovera.scripts.TestLoginPage -->
+    </test> <!-- Test -->
+    <test started-at="2021-09-30T18:34:00Z" name="Test1" finished-at="2021-09-30T18:34:01Z" duration-ms="250">
+      <class name="com.finovera.scripts.TestLoginPage">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.finovera.scripts.TestLoginPage@124c278f]" started-at="2021-10-01T00:04:00Z" name="openBrowser" finished-at="2021-10-01T00:04:00Z" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:280)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:132)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:186)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:434)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:236)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:193)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:171)
+	at com.finovera.generics.BaseTest.openBrowser(BaseTest.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:169)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.finovera.scripts.TestLoginPage@124c278f]" started-at="2021-10-01T00:04:01Z" name="openApp" finished-at="2021-10-01T00:04:01Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test_InvalidLoginPage(java.lang.String, java.lang.String)[pri:0, instance:com.finovera.scripts.TestLoginPage@124c278f]" started-at="2021-10-01T00:04:01Z" name="test_InvalidLoginPage" data-provider="testWithInvalidLoginPage" finished-at="2021-10-01T00:04:01Z" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ssjsjs]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[132ed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_InvalidLoginPage -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.finovera.scripts.TestLoginPage@124c278f]" started-at="2021-10-01T00:04:01Z" name="openApp" finished-at="2021-10-01T00:04:01Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test_InvalidLoginPage(java.lang.String, java.lang.String)[pri:0, instance:com.finovera.scripts.TestLoginPage@124c278f]" started-at="2021-10-01T00:04:01Z" name="test_InvalidLoginPage" data-provider="testWithInvalidLoginPage" finished-at="2021-10-01T00:04:01Z" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_InvalidLoginPage -->
+        <test-method signature="test_InvalidLoginPage(java.lang.String, java.lang.String)[pri:0, instance:com.finovera.scripts.TestLoginPage@124c278f]" started-at="2021-10-01T00:04:01Z" name="test_InvalidLoginPage" data-provider="testWithInvalidLoginPage" finished-at="2021-10-01T00:04:01Z" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#^%&U]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asddfvdfv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_InvalidLoginPage -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.finovera.scripts.TestLoginPage@124c278f]" started-at="2021-10-01T00:04:01Z" name="openApp" finished-at="2021-10-01T00:04:01Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method is-config="true" signature="openApp()[pri:0, instance:com.finovera.scripts.TestLoginPage@124c278f]" started-at="2021-10-01T00:04:01Z" name="openApp" finished-at="2021-10-01T00:04:01Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method signature="test_ValidLoginPage()[pri:0, instance:com.finovera.scripts.TestLoginPage@124c278f]" started-at="2021-10-01T00:04:01Z" name="test_ValidLoginPage" finished-at="2021-10-01T00:04:01Z" duration-ms="16" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_ValidLoginPage -->
+      </class> <!-- com.finovera.scripts.TestLoginPage -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
